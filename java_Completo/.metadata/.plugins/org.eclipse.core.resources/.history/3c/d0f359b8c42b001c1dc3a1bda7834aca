@@ -1,0 +1,22 @@
+package db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DB {
+
+	public Connection getDB() {
+		try {
+			//tentar estabelecer a conexão
+			Connection conn = DriverManager.getConnection(
+					"jdbc:mysql://127.0.0.1:3306/coursejdbc?serverTimezone=UTC", //linha de conexao
+					"developer", //usuário do my sql
+					"147896325abc" //senha do mysql
+					);
+		}
+		catch (Exception e) {
+			//se deu erro na hora de conectar
+		}
+	}
+	
+}

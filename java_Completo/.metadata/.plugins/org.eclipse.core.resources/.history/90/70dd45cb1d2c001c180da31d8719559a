@@ -1,0 +1,21 @@
+package gui;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.Initializable;
+import javafx.scene.control.MenuItem;
+
+public class MainViewController implements Initializable {
+
+	private MenuItem menuItemSeller;
+
+	private MenuItem menuItemDepartment;
+
+	private MenuItem menuItemAbout;
+
+	@Override
+	public void initialize(URL uri, ResourceBundle rb) {
+	}
+
+}

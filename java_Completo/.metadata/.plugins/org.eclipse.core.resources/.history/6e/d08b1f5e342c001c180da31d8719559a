@@ -1,0 +1,12 @@
+package gui.util;
+
+import javafx.event.ActionEvent;
+import javafx.stage.Stage;
+
+public class Utils {
+
+	public static Stage currentStage(ActionEvent event) {
+		return ((Node) event.getSource()).get
+	}
+
+}
